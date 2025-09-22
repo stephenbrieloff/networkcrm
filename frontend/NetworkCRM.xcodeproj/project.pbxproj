@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B2C3D4E5F67890ABCD1001 /* NetworkCRMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2001 /* NetworkCRMApp.swift */; };
+		A1B2C3D4E5F67890ABCD1002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2002 /* ContentView.swift */; };
+		A1B2C3D4E5F67890ABCD1003 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2003 /* ContactViewModel.swift */; };
+		A1B2C3D4E5F67890ABCD1004 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2004 /* PersistenceController.swift */; };
+		A1B2C3D4E5F67890ABCD1005 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2005 /* NotificationManager.swift */; };
+		A1B2C3D4E5F67890ABCD1006 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2006 /* ContactListView.swift */; };
+		A1B2C3D4E5F67890ABCD1007 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2007 /* AddContactView.swift */; };
+		A1B2C3D4E5F67890ABCD1008 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2008 /* ContactDetailView.swift */; };
+		A1B2C3D4E5F67890ABCD1009 /* FollowUpReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2009 /* FollowUpReminderView.swift */; };
+		A1B2C3D4E5F67890ABCD1010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2010 /* Assets.xcassets */; };
+		A1B2C3D4E5F67890ABCD1011 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2011 /* Preview Assets.xcassets */; };
+		A1B2C3D4E5F67890ABCD1012 /* NetworkCRMDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F67890ABCD2012 /* NetworkCRMDataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA76D2182E81B03C009A2D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3D4E5F67890ABCD9001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B2C3D4E5F67890ABCD6001;
+			remoteInfo = NetworkCRM;
+		};
+		FA76D2332E81B060009A2D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B2C3D4E5F67890ABCD9001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B2C3D4E5F67890ABCD6001;
+			remoteInfo = NetworkCRM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D4E5F67890ABCD2001 /* NetworkCRMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCRMApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2003 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2004 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2005 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2006 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2007 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2008 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2009 /* FollowUpReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUpReminderView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD2013 /* NetworkCRMDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetworkCRMDataModel.xcdatamodel; sourceTree = "<group>"; };
+		A1B2C3D4E5F67890ABCD3001 /* NetworkCRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkCRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA76D2142E81B03B009A2D00 /* NetworkCRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkCRMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA76D22D2E81B060009A2D00 /* NetworkCRMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkCRMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA76D2152E81B03B009A2D00 /* NetworkCRMTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NetworkCRMTests; sourceTree = "<group>"; };
+		FA76D22E2E81B060009A2D00 /* NetworkCRMUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NetworkCRMUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4E5F67890ABCD4001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA76D2112E81B03B009A2D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA76D22A2E81B060009A2D00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D4E5F67890ABCD5001 = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD5002 /* NetworkCRM */,
+				FA76D2152E81B03B009A2D00 /* NetworkCRMTests */,
+				FA76D22E2E81B060009A2D00 /* NetworkCRMUITests */,
+				A1B2C3D4E5F67890ABCD5003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5002 /* NetworkCRM */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2001 /* NetworkCRMApp.swift */,
+				A1B2C3D4E5F67890ABCD2002 /* ContentView.swift */,
+				A1B2C3D4E5F67890ABCD5004 /* Models */,
+				A1B2C3D4E5F67890ABCD5005 /* Views */,
+				A1B2C3D4E5F67890ABCD5006 /* ViewModels */,
+				A1B2C3D4E5F67890ABCD5007 /* Services */,
+				A1B2C3D4E5F67890ABCD5008 /* Resources */,
+			);
+			path = NetworkCRM;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD3001 /* NetworkCRM.app */,
+				FA76D2142E81B03B009A2D00 /* NetworkCRMTests.xctest */,
+				FA76D22D2E81B060009A2D00 /* NetworkCRMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2012 /* NetworkCRMDataModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2006 /* ContactListView.swift */,
+				A1B2C3D4E5F67890ABCD2007 /* AddContactView.swift */,
+				A1B2C3D4E5F67890ABCD2008 /* ContactDetailView.swift */,
+				A1B2C3D4E5F67890ABCD2009 /* FollowUpReminderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2003 /* ContactViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2004 /* PersistenceController.swift */,
+				A1B2C3D4E5F67890ABCD2005 /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2010 /* Assets.xcassets */,
+				A1B2C3D4E5F67890ABCD5009 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1B2C3D4E5F67890ABCD5009 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2011 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D4E5F67890ABCD6001 /* NetworkCRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F67890ABCD8001 /* Build configuration list for PBXNativeTarget "NetworkCRM" */;
+			buildPhases = (
+				A1B2C3D4E5F67890ABCD7001 /* Sources */,
+				A1B2C3D4E5F67890ABCD4001 /* Frameworks */,
+				A1B2C3D4E5F67890ABCD7002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkCRM;
+			productName = NetworkCRM;
+			productReference = A1B2C3D4E5F67890ABCD3001 /* NetworkCRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA76D2132E81B03B009A2D00 /* NetworkCRMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA76D21C2E81B03C009A2D00 /* Build configuration list for PBXNativeTarget "NetworkCRMTests" */;
+			buildPhases = (
+				FA76D2102E81B03B009A2D00 /* Sources */,
+				FA76D2112E81B03B009A2D00 /* Frameworks */,
+				FA76D2122E81B03B009A2D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA76D2192E81B03C009A2D00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA76D2152E81B03B009A2D00 /* NetworkCRMTests */,
+			);
+			name = NetworkCRMTests;
+			packageProductDependencies = (
+			);
+			productName = NetworkCRMTests;
+			productReference = FA76D2142E81B03B009A2D00 /* NetworkCRMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA76D22C2E81B060009A2D00 /* NetworkCRMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA76D2352E81B060009A2D00 /* Build configuration list for PBXNativeTarget "NetworkCRMUITests" */;
+			buildPhases = (
+				FA76D2292E81B060009A2D00 /* Sources */,
+				FA76D22A2E81B060009A2D00 /* Frameworks */,
+				FA76D22B2E81B060009A2D00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA76D2342E81B060009A2D00 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA76D22E2E81B060009A2D00 /* NetworkCRMUITests */,
+			);
+			name = NetworkCRMUITests;
+			packageProductDependencies = (
+			);
+			productName = NetworkCRMUITests;
+			productReference = FA76D22D2E81B060009A2D00 /* NetworkCRMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D4E5F67890ABCD9001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1B2C3D4E5F67890ABCD6001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FA76D2132E81B03B009A2D00 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A1B2C3D4E5F67890ABCD6001;
+					};
+					FA76D22C2E81B060009A2D00 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A1B2C3D4E5F67890ABCD6001;
+					};
+				};
+			};
+			buildConfigurationList = A1B2C3D4E5F67890ABCD8002 /* Build configuration list for PBXProject "NetworkCRM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B2C3D4E5F67890ABCD5001;
+			productRefGroup = A1B2C3D4E5F67890ABCD5003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B2C3D4E5F67890ABCD6001 /* NetworkCRM */,
+				FA76D2132E81B03B009A2D00 /* NetworkCRMTests */,
+				FA76D22C2E81B060009A2D00 /* NetworkCRMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4E5F67890ABCD7002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F67890ABCD1011 /* Preview Assets.xcassets in Resources */,
+				A1B2C3D4E5F67890ABCD1010 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA76D2122E81B03B009A2D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA76D22B2E81B060009A2D00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D4E5F67890ABCD7001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F67890ABCD1012 /* NetworkCRMDataModel.xcdatamodeld in Sources */,
+				A1B2C3D4E5F67890ABCD1004 /* PersistenceController.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1005 /* NotificationManager.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1003 /* ContactViewModel.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1006 /* ContactListView.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1007 /* AddContactView.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1008 /* ContactDetailView.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1009 /* FollowUpReminderView.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1002 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F67890ABCD1001 /* NetworkCRMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA76D2102E81B03B009A2D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA76D2292E81B060009A2D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA76D2192E81B03C009A2D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B2C3D4E5F67890ABCD6001 /* NetworkCRM */;
+			targetProxy = FA76D2182E81B03C009A2D00 /* PBXContainerItemProxy */;
+		};
+		FA76D2342E81B060009A2D00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B2C3D4E5F67890ABCD6001 /* NetworkCRM */;
+			targetProxy = FA76D2332E81B060009A2D00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4E5F67890ABCD8003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F67890ABCD8004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B2C3D4E5F67890ABCD8005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkCRM/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.networkcrm.NetworkCRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F67890ABCD8006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NetworkCRM/Resources/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.networkcrm.NetworkCRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA76D21A2E81B03C009A2D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7VWGBGDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Steve.NetworkCRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkCRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkCRM";
+			};
+			name = Debug;
+		};
+		FA76D21B2E81B03C009A2D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7VWGBGDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Steve.NetworkCRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkCRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NetworkCRM";
+			};
+			name = Release;
+		};
+		FA76D2362E81B060009A2D00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7VWGBGDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Steve.NetworkCRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkCRM;
+			};
+			name = Debug;
+		};
+		FA76D2372E81B060009A2D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3U7VWGBGDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Steve.NetworkCRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetworkCRM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4E5F67890ABCD8001 /* Build configuration list for PBXNativeTarget "NetworkCRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F67890ABCD8005 /* Debug */,
+				A1B2C3D4E5F67890ABCD8006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B2C3D4E5F67890ABCD8002 /* Build configuration list for PBXProject "NetworkCRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F67890ABCD8003 /* Debug */,
+				A1B2C3D4E5F67890ABCD8004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA76D21C2E81B03C009A2D00 /* Build configuration list for PBXNativeTarget "NetworkCRMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76D21A2E81B03C009A2D00 /* Debug */,
+				FA76D21B2E81B03C009A2D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA76D2352E81B060009A2D00 /* Build configuration list for PBXNativeTarget "NetworkCRMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76D2362E81B060009A2D00 /* Debug */,
+				FA76D2372E81B060009A2D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1B2C3D4E5F67890ABCD2012 /* NetworkCRMDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1B2C3D4E5F67890ABCD2013 /* NetworkCRMDataModel.xcdatamodel */,
+			);
+			currentVersion = A1B2C3D4E5F67890ABCD2013 /* NetworkCRMDataModel.xcdatamodel */;
+			path = NetworkCRMDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1B2C3D4E5F67890ABCD9001 /* Project object */;
+}
