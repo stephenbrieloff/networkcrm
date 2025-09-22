@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(helmet());
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000'], // Add your iOS simulator/device IPs as needed
+  origin: ['http://localhost:3000', 'http://127.0.0.1:3000', 'http://localhost:3001'], 
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));

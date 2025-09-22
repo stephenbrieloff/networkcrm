@@ -1,133 +1,36 @@
-# 🤝 Network CRM iOS App
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-<div align="center">
-  <img src="https://img.shields.io/badge/iOS-15%2B-blue" alt="iOS 15+" />
-  <img src="https://img.shields.io/badge/Swift-5.0-orange" alt="Swift 5.0" />
-  <img src="https://img.shields.io/badge/Status-MVP%20Complete-green" alt="MVP Complete" />
-</div>
+## Getting Started
 
-<br />
+First, run the development server:
 
-> **A frictionless iOS app that transforms networking-avoiders into networking champions by making relationship management effortless.**
-
-## 🎯 Core Philosophy: "5-Second Rule"
-
-Every core action in the app must be completable in **5 seconds or less**. If someone who has never prioritized networking can't use this app intuitively and immediately, we've failed.
-
-## 🚀 MVP Features (Phase 1 Complete)
-
-✅ **Lightning-Fast Contact Addition**
-- Add new contacts in under 5 seconds
-- Smart form with auto-focus and keyboard optimization
-- Immediate success feedback
-
-✅ **Intelligent Contact Management**
-- Scrollable contact list with instant search
-- Beautiful empty state with clear call-to-action
-- Swipe-to-delete functionality
-
-✅ **Rich Contact Details**
-- Professional contact cards with initials avatars
-- In-app editing with native iOS text fields
-- Quick action buttons (call, text, email)
-
-✅ **Smart Follow-Up System**
-- One-tap reminder setup with preset options
-- Custom date and time picker
-- Local notifications with deep-linking
-
-✅ **Native iOS Excellence**
-- SwiftUI with iOS 15+ optimizations
-- Core Data persistence with iCloud sync ready
-- Proper notification handling and permissions
-
-## 🏗️ Architecture
-
-```
-NetworkCRM/
-├── Models/           # Core Data models (Contact entity)
-├── Views/            # SwiftUI views and components
-│   ├── ContactListView.swift
-│   ├── AddContactView.swift
-│   ├── ContactDetailView.swift
-│   └── FollowUpReminderView.swift
-├── ViewModels/       # Business logic (MVVM pattern)
-│   └── ContactViewModel.swift
-├── Services/         # Core services
-│   ├── PersistenceController.swift
-│   └── NotificationManager.swift
-└── Resources/        # Assets and preview content
-```
-
-## 🛠️ Technology Stack
-
-- **SwiftUI** - Modern UI framework for iOS 15+
-- **Core Data** - Local persistence with iCloud sync capability
-- **Combine** - Reactive programming for data flow
-- **UserNotifications** - Local push notifications
-- **MVVM Architecture** - Clean separation of concerns
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Xcode 14+ (iOS 15+ deployment target)
-- iOS Simulator or physical device
-- macOS development environment
-
-### Running the App
 ```bash
-# Open project in Xcode
-open NetworkCRM.xcodeproj
-
-# Or build from command line
-xcodebuild -project NetworkCRM.xcodeproj -scheme NetworkCRM -destination 'platform=iOS Simulator,name=iPhone 14' build
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 📊 Success Metrics (MVP Goals Achieved)
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- ⏱️ **Time to add first contact:** < 60 seconds ✅
-- ⚡ **Core actions completed in:** < 5 seconds ✅
-- 🍎 **Native iOS feel:** Professional UI/UX ✅
-- 🔔 **Smart notifications:** Working reminder system ✅
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 🔮 Roadmap (Phase 2)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- 📱 **Business Card Scanning** - Vision Framework integration
-- 🎤 **Voice Notes** - Quick audio memos for contacts
-- 📊 **Analytics Dashboard** - Relationship health insights
-- 💬 **Message Templates** - Pre-written follow-up messages
-- 🔗 **iOS Integrations** - Siri Shortcuts, Widgets, Spotlight
+## Learn More
 
-## 🎨 Design Principles
+To learn more about Next.js, take a look at the following resources:
 
-1. **⚡ Instant Capture** - Minimize friction for adding contacts
-2. **🎯 Zero Configuration** - Works perfectly out of the box  
-3. **🤖 Proactive Intelligence** - App suggests actions, users don't think
-4. **🍎 Native iOS Excellence** - Leverages platform conventions
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 💡 Key Features
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### 🔥 5-Second Contact Addition
-- Auto-focus on first field for immediate typing
-- Smart keyboard types (email, phone, etc.)
-- Return key navigation between fields
-- One-tap save with success confirmation
+## Deploy on Vercel
 
-### 📱 Native iOS Integration
-- Deep-link support from notifications
-- Proper permission handling
-- Background app refresh ready
-- iOS design language throughout
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### 🧠 Smart Architecture
-- MVVM with Combine for reactive updates
-- Centralized notification management
-- Core Data with preview support
-- Memory-efficient view models
-
----
-
-<div align="center">
-  <strong>"If it takes more than 5 seconds, we're doing it wrong."</strong><br/>
-  <em>— Core Development Mantra</em>
-</div>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
